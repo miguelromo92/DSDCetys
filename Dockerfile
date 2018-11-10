@@ -5,4 +5,4 @@
 5  COPY . .
 6
 7  EXPOSE 3000
-8  CMD [ "node", "Employees_API.js" ]
+8  CMD [ "node", "employees.js" ]
