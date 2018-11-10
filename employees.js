@@ -16,7 +16,7 @@ const employees1 = [
 ];
 const employees2 = [
   { id: 1, name: "Jake", lastname: "Peralta" },
-  { id: 2, name: "Charles", lastname:"Boyle"}
+  { id: 2, name: "Charles", lastname:"Boyle"},
   { id: 3, name: "Amy", lastname:"Santiago"}
 ];
 
