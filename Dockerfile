@@ -1,19 +1,8 @@
-FROM node:8
-
-# Create app directory
-WORKDIR /usr/src/app
-
-# Install app dependencies
-# A wildcard is used to ensure both package.json AND package-lock.json are copied
-# where available (npm@5+)
-COPY package*.json ./
-
-RUN npm install
-# If you are building your code for production
-# RUN npm install --only=production
-
-# Bundle app source
-COPY . .
-
-EXPOSE 3000
-CMD [ "npm", "employees.js" ]
+1  FROM node:8
+2
+3  WORKDIR /usr/src/app
+4
+5  COPY . .
+6
+7  EXPOSE 3000
+8  CMD [ "node", "Employees_API.js" ]
