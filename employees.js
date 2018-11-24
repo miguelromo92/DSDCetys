@@ -11,11 +11,13 @@ var app = express();
 // Declare an array of JSON objects
 const employees1 = [
   { id: 1, name: "Jake"},
-  { id: 2, name: "Mike"}
+  { id: 2, name: "Charles"},
+  { id: 3, name: "Mike"}
 ];
 const employees2 = [
   { id: 1, name: "Jake", lastname: "Peralta" },
-  { id: 2, name: "Mike", lastname:"Romo"}
+  { id: 2, name: "Charles", lastname: "Boyle" },
+  { id: 3, name: "Mike", lastname:"Romo"}
 ];
 
 // Route to employees v2
